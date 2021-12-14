@@ -27,3 +27,6 @@ def read_item(item_id: int, q: Optional[str] = None):
 @app.post("/login")
 def login(user : User):
     return {"echo": user}
+@app.post("/login")
+def login(user : User):
+    return {"echo": user}
